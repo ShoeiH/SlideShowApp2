@@ -96,11 +96,10 @@ class ViewController: UIViewController {
             self.timer = nil
         }
         
-            
-        
         Back.isEnabled = true
         Next.isEnabled = true
         
+        playbutton.setTitle("再生", for: .normal)
         
     }
     
