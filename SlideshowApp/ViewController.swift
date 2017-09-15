@@ -91,6 +91,16 @@ class ViewController: UIViewController {
         
         imageViewController.image = images[index]
         
+        if self.timer != nil {
+            self.timer.invalidate()
+            self.timer = nil
+        }
+        
+            
+        
+        Back.isEnabled = true
+        Next.isEnabled = true
+        
         
     }
     
